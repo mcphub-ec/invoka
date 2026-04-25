@@ -29,7 +29,7 @@ load_dotenv()
 logging.basicConfig(
     level=logging.INFO,
     format='{"time":"%(asctime)s", "level":"%(levelname)s", "name":"%(name)s", "message":"%(message)s"}',
-)s [%(levelname)s] %(name)s: %(message)s")
+)
 logger = logging.getLogger("invoka-mcp")
 
 INVOKA_BASE_URL = os.environ.get(
